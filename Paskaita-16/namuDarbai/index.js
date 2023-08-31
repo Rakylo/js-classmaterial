@@ -16,7 +16,7 @@ class Automobiliai {
   }
   //   turnOn() {
   //     alert(`vrooom ${this.model}`);
-  //   }
+  //   }*{
 }
 const opel = new Automobiliai("opel", "zafira", "electric", 5000);
 const audi = new Automobiliai("audi", "A7", "diesel", 1000);

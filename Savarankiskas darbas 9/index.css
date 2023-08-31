@@ -1,0 +1,30 @@
+table {
+    margin-top: 16px;
+  }
+  
+  table,
+  th,
+  tr,
+  td {
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  tr  {
+    width: 50%;
+    text-align: center;
+    
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(216, 112, 112);
+  }
+  
+  tr:nth-child(odd) {
+    background-color: whitesmoke;
+  }
+  .container{
+    text-align: center;
+
+  }
