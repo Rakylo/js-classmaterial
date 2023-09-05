@@ -64,6 +64,7 @@ function creteButtons(cities) {
 // Function to filter properties by city
 function filterByCity(city) {
   const namaiContainer = document.getElementById("properties-container");
+  namaiContainer.className = "flex";
   const allProperties = namaiContainer.querySelectorAll(".namo-kortele");
 
   allProperties.forEach((property) => {
