@@ -112,5 +112,16 @@
     gap: 2rem;
     padding-top: 2rem;
     justify-content: center;
-    background-color: #d0d0d0;
+    background-color: #b3aa7a;
+  }
+
+  .divas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    gap: 2rem;
+    padding-top: 2rem;
+    justify-content: center;
+    background-color: #b3aa7a;
   }
