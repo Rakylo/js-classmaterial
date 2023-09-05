@@ -44,9 +44,9 @@
   }
   
 .namo-kortele {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
     gap: 1rem;
     background-color: #f5f5f5;
     padding: 1rem;
@@ -94,9 +94,9 @@
   .wrapper1{
     /* display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
-    gap: 1rem;
-    align-items: center;
+    flex-wrap: wrap; */
+    /* gap: 1rem; */
+    /* align-items: center; */
     background-color: #f5f5f5;
     /* padding: 1rem; */
     /* border-radius: 5px; */
@@ -107,8 +107,12 @@
   .flex{
     display: flex;
     flex-direction: row;
-    /* width: 40%; */
-    
+    flex-wrap: wrap;
+    width: auto;
+    gap: 2rem;
+    padding-top: 2rem;
+    justify-content: center;
+    background-color: #b3aa7a;
   }
 
   
