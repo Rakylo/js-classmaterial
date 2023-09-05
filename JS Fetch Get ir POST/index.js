@@ -5,7 +5,7 @@ async function isgryninuNamus() {
       const namai = await response.json();
       console.log(namai);
 
-      // Get unique city names
+      // Get unique city names 
       const uniqueCities = Array.from(
         new Set(namai.map((namas) => namas.city))
       );
@@ -33,6 +33,7 @@ async function isgryninuNamus() {
         namoKortele.setAttribute("class", "namo-kortele");
         namoKortele.append(namoVaizdas, namoKaina, namoMiestas, namoAprasymas);
         namaiContainer.append(namoKortele);
+        namaiContainer.className = "flex";
       });
     }
   } catch (error) {
