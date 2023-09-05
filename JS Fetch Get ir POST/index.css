@@ -1,0 +1,103 @@
+
+  /* Body styles */
+  body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  header {
+    background-color: rgb(3, 211, 178);
+    color: white;
+    padding: 3rem 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  header h2 {
+    font-weight: 500;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    padding: rem 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  .wrapper {
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+    
+  }
+  
+.namo-kortele {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+  }
+  
+  .namo-kortele img {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Common style for all buttons */
+  .button:hover {
+    background-color: #ff5733; /* Fire Orange on Hover */
+    color: #fff; /* White */
+  }
+  
+  /* Style for the "All Cities" button */
+  .button-all-cities {
+    background-color: #ff5733; /* Fire Orange */
+  }
+  
+  /* Style for other city buttons (you can add more styles as needed) */
+  .button-city1 {
+    background-color: #ffcc29; /* Yellow */
+  }
+  
+  .button-city2 {
+    background-color: #ff686b; /* Reddish Pink */
+  }
+  
+  .wrapper1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+  }
