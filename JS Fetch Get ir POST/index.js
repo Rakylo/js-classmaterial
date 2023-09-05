@@ -33,6 +33,7 @@ async function isgryninuNamus() {
         namoKortele.setAttribute("class", "namo-kortele");
         namoKortele.append(namoVaizdas, namoKaina, namoMiestas, namoAprasymas);
         namaiContainer.append(namoKortele);
+        namaiContainer.className = "flex";
       });
     }
   } catch (error) {

@@ -15,11 +15,10 @@ body {
       border: 1px solid black;
       border-collapse: collapse;
     }
-    width: 50%;
-    text-align: center;
-    
+         
     tr  {
-      
+      width: 50%;
+      text-align: center;
     }
     
     tr:nth-child(even) {
