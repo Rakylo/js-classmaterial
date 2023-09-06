@@ -80,7 +80,7 @@ function generateForm() {
     const paveiksliukas = paveiksliukasInput.value;
     const pavadinimas = pavadimasInput.value;
     const kaina = kainaInput.value;
-    // console.log(paveiksliukas, pavadinimas, kaina);
+    //console.log(kaina);
 
     try {
       const response = await fetch(HOST, {
@@ -96,7 +96,10 @@ function generateForm() {
       });
       if (response.ok) {
         //   alert("pridetas");
-        generateProductCard({ paveiksliukas, kaina, pavadinimas });
+        generateProductCard({ 
+          image: paveiksliukas, 
+          price: kaina,
+          title: pavadinimas });
       } else {
         alert("nepavyko");
       }
