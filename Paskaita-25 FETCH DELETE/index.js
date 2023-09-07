@@ -96,10 +96,11 @@ function generateForm() {
       });
       if (response.ok) {
         //   alert("pridetas");
-        generateProductCard({ 
-          image: paveiksliukas, 
+        generateProductCard({
+          image: paveiksliukas,
           price: kaina,
-          title: pavadinimas });
+          title: pavadinimas,
+        });
       } else {
         alert("nepavyko");
       }
