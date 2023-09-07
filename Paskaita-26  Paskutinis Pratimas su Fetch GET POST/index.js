@@ -104,6 +104,7 @@ function generateSkillsCard(skl) {
   console.log(skillsProc);
 
   const skillsLevel = document.createElement("meter");
+  skillsLevel.setAttribute("class", "front");
   skillsLevel.setAttribute("value", skl.level);
   skillsLevel.setAttribute("min", 1);
   skillsLevel.setAttribute("max", 100);

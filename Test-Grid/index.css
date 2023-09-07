@@ -20,6 +20,7 @@ body{
         background-color: aqua;
         text-align: center;
         padding-right: 30px;
+      
     }
     .div2 { grid-area: 1 / 2 / 2 / 3; 
         /* border: 1px solid red; */
