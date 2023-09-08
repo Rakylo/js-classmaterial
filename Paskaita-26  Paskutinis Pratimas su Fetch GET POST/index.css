@@ -41,7 +41,7 @@ h4{
 }
 h6{
     color: white;
-    margin-top: 500px;
+    margin-top: 200px;
     font-weight: lighter;
     margin-left: -40%;
 }
@@ -138,10 +138,9 @@ meter{
     color: blue;
 
 }
-/* meter::-webkit-meter-bar {
-    background-color: #ccc;
-  } */
-
+meter::-webkit-meter-optimum-value {
+    background-color:rgb(3,180,224);
+  }
   
 
   
