@@ -10,10 +10,17 @@ import { substraction } from "./modules/math/subtraction.js";
 
 import { multiplication } from "./modules/math/multiplication.js";
 
-let a = composition(1, 4);
-let b = division(4, 2);
-let c = substraction(3, 2);
-let d = multiplication(5, 2);
+const one = 1
+const two = 2
+const three = 3
+const four = 4
+const five = 5
+
+let a = composition(one, four);
+let b = division(four, two);
+let c = substraction(three, two);
+let d = multiplication(five, two);
+
 
 console.log(a);
 console.log(b);
