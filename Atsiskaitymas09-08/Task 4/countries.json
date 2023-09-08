@@ -1,0 +1,28 @@
+[
+  {
+    "country": "United States",
+    "exports": ["Machinery", "Electrical machinery", "Medical equipment", "Aircraft", "Vehicles"]
+  },
+  {
+    "country": "China",
+    "exports": ["Electrical machinery", "Computers", "Furniture", "Clothing", "Plastics"]
+  },
+  {
+    "country": "Germany",
+    "exports": ["Vehicles", "Machinery", "Chemicals", "Electrical machinery", "Pharmaceuticals"]
+  },
+  {
+    "country": "Japan",
+    "exports": [
+      "Vehicles",
+      "Electrical machinery",
+      "Machinery",
+      "Optical and medical equipment",
+      "Plastics"
+    ]
+  },
+  {
+    "country": "United Kingdom",
+    "exports": ["Machinery", "Vehicles", "Electrical machinery", "Pharmaceuticals", "Oil"]
+  }
+]
