@@ -3,19 +3,12 @@
 
 }
 .container{
-    /* border: 12px solid lightgray; */
-    /* border-left: 50px solid lightgray; */
-    /* border-right: 20px solid lightgray; */
-    /* text-align: center; */
-    
-    /* height: 80%; */
-    /* border: 1px solid black; */
-    /* height: 100%; */
     display: flex;
     background-color: lightgray;
     width: 800px;
-    height: 750px;
+    height: 850px;
     margin: auto;
+    margin-top: 20px;
     
 
 }
@@ -48,8 +41,9 @@ h4{
 }
 h6{
     color: white;
-    margin-top: 400px;
+    margin-top: 500px;
     font-weight: lighter;
+    margin-left: -40%;
 }
 
 .other-container{
@@ -89,10 +83,9 @@ h3{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     /* border: 1px solid black; */
-
     }
     
 .div1 { 
@@ -123,20 +116,20 @@ h3{
 }
 meter{  
     width: 90%;  
-    height: 20px;  
-
+    height: 20px;
   }  
 .coding{
+    line-height: 6px;
     text-align: left;
-    line-height: 5px;
 
 }
 .procentai{
-    color: lightgray;
+    color: rgb(150, 150, 150);
     text-align: right;
     padding-right: 30px;
 }
-
+.exp1{
+}
 .bold{
     font-weight: bold;
     font-size: larger;
@@ -145,16 +138,10 @@ meter{
     color: blue;
 
 }
-meter::-webkit-meter-optimum-value {
-    background-color:rgb(3,180,224);
+/* meter::-webkit-meter-bar {
+    background-color: #ccc;
+  } */
 
-  }
-.position{
-    margin-top: -30px;
-}
-.description{
-    margin-top: -30px;
-
-}
+  
 
   

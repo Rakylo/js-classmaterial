@@ -110,6 +110,7 @@ function generateSkillsCard(skl) {
   skillsLevel.setAttribute("value", skl.level);
   skillsLevel.setAttribute("min", 1);
   skillsLevel.setAttribute("max", 100);
+  // skillsLevel.setAttribute("optimum", 55);
 
   cardSkills.append(skillsTitle, skillsProc, skillsLevel);
   coding.append(cardSkills);
