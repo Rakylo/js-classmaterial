@@ -53,12 +53,14 @@ function generateExperienceCard(exp) {
   divas3.classList.add("div3");
 
   const position = document.createElement("p");
+  position.setAttribute("class", "position");
   position.textContent = exp.position;
 
   const divas4 = document.createElement("div");
   divas4.classList.add("div4");
 
   const description = document.createElement("p");
+  description.setAttribute("class", "description");
   description.textContent = exp.description;
 
   card.append(

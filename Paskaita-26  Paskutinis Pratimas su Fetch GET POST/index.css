@@ -14,7 +14,7 @@
     display: flex;
     background-color: lightgray;
     width: 800px;
-    height: 850px;
+    height: 750px;
     margin: auto;
     
 
@@ -48,7 +48,7 @@ h4{
 }
 h6{
     color: white;
-    margin-top: 500px;
+    margin-top: 400px;
     font-weight: lighter;
 }
 
@@ -84,11 +84,7 @@ h3{
     border: 1px solid black;
     
 }
-.position1{
-    min-width: 100px;
-    border: 1px solid black;
 
-}
 .parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -140,8 +136,7 @@ meter{
     text-align: right;
     padding-right: 30px;
 }
-.exp1{
-}
+
 .bold{
     font-weight: bold;
     font-size: larger;
@@ -150,10 +145,16 @@ meter{
     color: blue;
 
 }
-/* meter::-webkit-meter-bar {
-    background-color: #ccc;
-  } */
+meter::-webkit-meter-optimum-value {
+    background-color:rgb(3,180,224);
 
-  
+  }
+.position{
+    margin-top: -30px;
+}
+.description{
+    margin-top: -30px;
+
+}
 
   

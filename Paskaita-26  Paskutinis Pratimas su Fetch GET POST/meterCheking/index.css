@@ -1,0 +1,35 @@
+ /* Style the meter element */
+ meter {
+    width: 200px;
+    height: 20px;
+    display: inline-block;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden; /* Hide the default value text */
+  }
+
+  /* Style the meter's value */
+  meter::-webkit-meter-bar {
+    background-color: #ffffff;
+  }
+
+  /* Style the meter's optimum value */
+  meter::-webkit-meter-optimum-value {
+    background-color: #3640be;
+  }
+
+  /* Style the meter's suboptimum value */
+  meter::-webkit-meter-suboptimum-value {
+    background-color: #ff4500;
+  }
+
+  /* Style the meter's even less good value */
+  meter::-webkit-meter-even-less-good-value {
+    background-color: #ff0000;
+  }
+
+  /* Style the meter's value text */
+  meter::-webkit-inner-spin-button {
+    display: none; /* Hide the value text in WebKit browsers */
+  }
